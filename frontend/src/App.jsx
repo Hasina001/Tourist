@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom"
+import Navbar from "./components/Navbar"
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <div className="bg-[#F7F8F9] min-h-screen flex flex-col">
-        <nav>Navbar</nav>
+        <Navbar/>
         <div className="flex-grow">
           <Outlet/>
         </div>
